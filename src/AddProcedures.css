@@ -1,0 +1,56 @@
+.procedure-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+    .procedure-form h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .procedure-form input,
+    .procedure-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+        .procedure-form input[type="date"],
+        .procedure-form input[type="time"] {
+            padding: 8px;
+        }
+
+        .procedure-form input::placeholder,
+        .procedure-form textarea::placeholder {
+            color: #888;
+        }
+
+    .procedure-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .procedure-form button:hover {
+            background-color: #45a049;
+        }
+
+    .procedure-form p {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: center;
+    }

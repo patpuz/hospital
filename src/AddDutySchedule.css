@@ -1,0 +1,64 @@
+.add-duty-schedule-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+    .add-duty-schedule-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .add-duty-schedule-form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .add-duty-schedule-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+        .add-duty-schedule-form input:focus {
+            border-color: #66afe9;
+            outline: none;
+        }
+
+    .add-duty-schedule-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .add-duty-schedule-form button:hover {
+            background-color: #218838;
+        }
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add-duty-schedule-form p {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
